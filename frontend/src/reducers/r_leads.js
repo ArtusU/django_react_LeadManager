@@ -5,8 +5,8 @@ const initialState = {
 };
 
 
-export default function(state = initialState, actions) {
-    switch (action.type) {
+export default function reducer(state = initialState, action) {
+    switch(action.type) {
         case GET_LEADS:
             return {
                 ...state,

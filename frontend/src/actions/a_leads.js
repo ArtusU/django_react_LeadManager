@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { GET_LEADS } from "./types";
+import { GET_LEADS } from './types';
 
 
 export const getLeads = () => (dispatch) => {
@@ -14,3 +14,4 @@ export const getLeads = () => (dispatch) => {
       })
       .catch((err) => console.log(err));
   };
+
