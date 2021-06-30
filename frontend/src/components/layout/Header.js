@@ -60,8 +60,8 @@ export class Header extends Component {
                         <a className="navbar-brand" href="#">
                         Lead Manager
                         </a>
-                    </div>
                         {isAuthenticated ? authLinks : guestLinks }
+                    </div>
                 </div>
             </nav>
         )
